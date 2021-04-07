@@ -1,0 +1,12 @@
+Assignment 2
+
+Data: Vehicle Collisions.
+
+Question 1:
+Do weather conditions have an effect on the number of accidents?
+
+Question 2:
+Do road surface conditions have an effect on accidents?
+
+Question 3:
+Does the year of car make have an effect on the number of accidents?

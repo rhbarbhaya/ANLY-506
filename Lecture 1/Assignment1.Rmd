@@ -1,0 +1,34 @@
+---
+title: "Assignment 1"
+author: "Rushabh Barbhaya"
+date: "3/21/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Check which version of R you have
+```{r}
+version
+```
+
+
+## Install ggplot2 and load.
+```{r}
+if(!require("ggplot2")){install.packages("ggplot2")}
+library(ggplot2)
+```
+
+
+## Basic Calculator
+
+```{r}
+x = 3
+y = 9
+cat("x + y =", x+y) 
+cat("x - y =", x-y)
+cat("x * y =", x*y)
+cat("y / x =", y/x)
+```
